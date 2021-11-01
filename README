@@ -1,0 +1,15 @@
+1.Amestecari 
+ Folosim functia InitDeck pentru a crea pachetul initial. Apoi fiecare amestecare va fi facuta cu o functie separata din headarul Amestecari.h
+ Amestecarea pachetului se face in cadrul functiei Suffle care va fi apelata in cadrul fiecarei probleme.
+2.Razboi
+ Amestecam pachetul ca la punctul anterior si il impartim in 2.
+ La simularea jocului vom simula jocul prin compararea primei carti sau a cartii de dupa razboi urmmand sa adaugam cartile castigate unde trebuie.
+3.RollingStones
+ Amestecam pachetul ca la punctul 1 si il impartim in 4.
+ Observam ca nu trebuie sa memoram cartile deoarece conteaza doar culorile si numarul cartilor de fiecare culoare.
+ Astfel folosim o matrice de 4X4 in care sa tinem minte pentru fiecare player numarul de crti de fiecare culoare , umrand simularea propriu-zisa
+4.Scarabei egipteni 
+Amestecam pachetul ca la punctul 1 si il impartim in 4.
+Dupa acea simulam modul de joc prin plasarea cartilor intr-un nou Deck care simbolizeaza tabla, avand grija la fiecare caracteristica a cartilor.
+Functia special testeaza daca o carde are anumite actiuni specifice ce trebuiesc efectuate dupa plasarea jos.
+Ordinea jucatorilor o tinem intr-o lista simplu inlatuita si avem grija sa ii scotem pe cei care au iesit din joc.
